@@ -3,17 +3,19 @@
 const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 let date = new Date(2017, 5, 19) //June
 
-function month (){
-  return months[date.getMonth()];
+function month (date){
+    return months[date.getMonth()];
 }
+
 console.log(month(date));
 
-// Reverse A Sentence
+////// Reverse A Sentence /////
+let str = "please let me pass this test";
 
 function reverseSentence(str) {
     return str.split(" ").reverse().join(" ");
 }
-console.log(reverseSentence("please let me pass this test"));
+console.log(reverseSentence(str));
 
 // Names of Properties
 
@@ -28,10 +30,22 @@ function nameProp(obj){
 console.log(nameProp());
 
 // FilterBetween
+let arr = ['dog', 'cat', 'zebra', 'ape', 'lion', 'cow'];
 
-function filterBetween(array, min, max){
-  let filteredAnimals = array.filter(function(animals) {
-    return animals >= min && animals <= max
-  });
-  return filteredAnimals
+function filterBetween(arr, min, max) {
+  for(var i = 1; i < arr.length; i++){
+    if(arr[i] < max){
+      max === arr[i];
+      return filterBetween
+    }else{
+      console.error("Enter vaild string");
+    }
+  }
+}
+
+module.exports = {
+  month: month,
+  reverseSentence: reverseSentence,
+  nameProp: nameProp,
+  filterBetween: filterBetween
 }
