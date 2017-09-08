@@ -27,13 +27,13 @@ let christmas = new Date(2017, 11, 25) // Dec 25, 2017
 month(christmas) // returns "December"
 Requirements
 
- [] 10: A test using expected/valid inputs for the month() function is written in tests.js.
+ [X] 10: A test using expected/valid inputs for the month() function is written in tests.js.
 
- [] 10: A test using unexpected/invalid inputs for the month() function is written in tests.js.
+ [X] 10: A test using unexpected/invalid inputs for the month() function is written in tests.js.
 
- [] 30: Correct implementation of the month() is defined in functions.js.
+ [X] 30: Correct implementation of the month() is defined in functions.js.
 
- [] 10: Tests for month() are passing.
+ [X] 10: Tests for month() are passing.
 
 # Reverse a sentence
 
@@ -45,13 +45,13 @@ reverseSentence("The cat jumped over the dog.") // => "dog. the over jumped cat 
 reverseSentence("Hello, world!") // => "world! Hello,"
 Requirements
 
- [] 10: A test using expected/valid inputs for the reverseSentence() function is written in tests.js.
+ [X] 10: A test using expected/valid inputs for the reverseSentence() function is written in tests.js.
 
- [] 10: A test using unexpected/invalid inputs for the reverseSentence() function is written in tests.js.
+ [X] 10: A test using unexpected/invalid inputs for the reverseSentence() function is written in tests.js.
 
- [] 30: Correct implementation of the reverseSentence() is defined in functions.js.
+ [X] 30: Correct implementation of the reverseSentence() is defined in functions.js.
 
- [] 10: Tests for reverseSentence() are passing.
+ [X] 10: Tests for reverseSentence() are passing.
 
 # Names of properties
 
@@ -69,13 +69,13 @@ nameProps(friend) // => ['age', 'name', 'phone']
 nameProps({}) // => []
 Requirements
 
- [] 10: A test using expected/valid inputs for the nameProps() function is written in tests.js.
+ [X] 10: A test using expected/valid inputs for the nameProps() function is written in tests.js.
 
- [] 10: A test using unexpected/invalid inputs for the nameProps() function is written in tests.js.
+ [X] 10: A test using unexpected/invalid inputs for the nameProps() function is written in tests.js.
 
- [] 30: Correct implementation of the nameProps() is defined in functions.js.
+ [X] 30: Correct implementation of the nameProps() is defined in functions.js.
 
- [] 10: Tests for nameProps() are passing.
+ [X] 10: Tests for nameProps() are passing.
 
 # Filter between
 
@@ -90,13 +90,13 @@ filterBetween(arr, 'chimp', 'lobster') // => ['dog', 'lion', 'cow']
 filterBetween(arr, 'chickadee', 'chimpanzee') // => []
 Requirements
 
- [] 10: A test using expected/valid inputs for the filterBetween() function is written in tests.js.
+ [X] 10: A test using expected/valid inputs for the filterBetween() function is written in tests.js.
 
- [] 10: A test using unexpected/invalid inputs for the filterBetween() function is written in tests.js.
+ [X] 10: A test using unexpected/invalid inputs for the filterBetween() function is written in tests.js.
 
- [] 30: Correct implementation of the filterBetween() is defined in functions.js.
+ [X] 30: Correct implementation of the filterBetween() is defined in functions.js.
 
- [] 10: Tests for filterBetween() are passing.
+ [X] 10: Tests for filterBetween() are passing.
 
 # Part 2: Extract data from JSON file
 
@@ -166,9 +166,9 @@ Finding clients in City "Boston"...
 
 Requirements
 
- [] 40: searchByCompany.js script prints the client id, phone, and company for all clients whose company starts with the provided company argument.
+ [X] 40: searchByCompany.js script prints the client id, phone, and company for all clients whose company starts with the provided company argument.
 
- [] 40: searchByCity.js script prints the client id, rep_name, company, city, and state that for all clients whose city matches the provided city argument.
+ [X] 40: searchByCity.js script prints the client id, rep_name, company, city, and state that for all clients whose city matches the provided city argument.
 
 # Part 3: HTML layout for Filmtube
 
@@ -182,27 +182,27 @@ filmtubemockup
 
 Requirements
 
- [] 10: All files are stored under the part-3/ folder
+ [X] 10: All files are stored under the part-3/ folder
 
- [] 20: No third party CSS libraries are used (all code must be written from scratch)
+ [X] 20: No third party CSS libraries are used (all code must be written from scratch)
 
- [] 10: HTML and CSS are separated into their own files.
+ [X] 10: HTML and CSS are separated into their own files.
 
- [] 20: Page has a full-width header with the site title "Filmtube" and a button "Logout"
+ [X] 20: Page has a full-width header with the site title "Filmtube" and a button "Logout"
 
- [] 10: Site title "Filmtube" is aligned to the left side of the header
+ [X] 10: Site title "Filmtube" is aligned to the left side of the header
 
- [] 10: "Logout" button is aligned to the right side of the header
+ [X] 10: "Logout" button is aligned to the right side of the header
 
- [] 20: Page has a "Categories" sidebar with all categories for movies
+ [X] 20: Page has a "Categories" sidebar with all categories for movies
 
- [] 10: Page has a main content area showing each of the movies
+ [X] 10: Page has a main content area showing each of the movies
 
- [] 20: Main content lists all movies name, duration, and a "Play" button
+ [X] 20: Main content lists all movies name, duration, and a "Play" button
 
- [] 20: Clicking on a category in the "Categories" sidebar will jump to that category
+ [X] 20: Clicking on a category in the "Categories" sidebar will jump to that category
 
- [] 10: Main content organizes all movies by section
+ [X] 10: Main content organizes all movies by section
 
 # Part 4: Quiz time!
 

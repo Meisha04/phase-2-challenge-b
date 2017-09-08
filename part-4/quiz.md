@@ -1,11 +1,5 @@
 # Part 4: Quiz time!
 
-Copy the questions below into a file part-4/quiz.md. Then, write your answer to each question directly below it.
-
-The quiz is worth 50 points in total.
-
-Reminder: you can use the internet to help you answer these questions :)
-
 Q: When you run a command in the terminal, where does BASH look for that command?
 
 A: $PATH

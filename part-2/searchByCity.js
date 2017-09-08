@@ -1,5 +1,6 @@
 const clients = require('./clients.json');
 const city = process.argv[2];
+
 let clientsInCity = clients.filter(function (place) {
        return (place.city.toLowerCase() === city.toLowerCase())
 });

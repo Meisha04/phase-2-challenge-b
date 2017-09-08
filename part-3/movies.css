@@ -9,7 +9,6 @@ h1 {
   text-align: center;
 }
 
-
 h3 {
   text-align: left;
   background-color: lightgray;
@@ -24,7 +23,6 @@ h4 {
 
 .movie {
   list-style-type: none;
-
 }
 .play-button {
   background-color: black;
@@ -45,7 +43,6 @@ h4 {
   padding: 30px 25px 375px 25px;
   margin: -35px 15px -5px 25px;
   font-size: 20px;
-
 }
 
 #banner1 {
@@ -65,5 +62,4 @@ h4 {
   float: right;
   background-color: black;
   color: white;
-
 }
